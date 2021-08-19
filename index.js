@@ -3,7 +3,7 @@ const assert = require('assert')
 const ellipsize = require('ellipsize')
 
 function initDB (opts) {
-  return new IssueDB(opts)
+  return new IssueDB(opts) 
 }
 
 class IssueDB {
